@@ -1,5 +1,5 @@
 '''
-Title: Timing Control and Frame Rate Measurement Script
+Title: Timing Control and Frame Rate Measurement
 
 Description:
 This Python script is designed to measure the execution time of a set of calculations over a specific number of iterations (counter). 
