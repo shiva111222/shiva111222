@@ -1,3 +1,22 @@
+''''
+Title: Toy vs. Not Toy Image Classification with Convolutional Neural Network (CNN)
+
+Description:
+This Python script uses a Convolutional Neural Network (CNN) to classify images as either "Toy" or "Not Toy." The script loads a dataset of toy and non-toy images, preprocesses them, and trains the CNN using data augmentation for improved generalization. The CNN architecture consists of convolutional layers with ReLU activation, max-pooling layers, and fully connected layers with softmax activation for classification.
+
+The script performs the following steps:
+
+    1) Loads the toy and non-toy images from the specified directory.
+    2) Randomly shuffles the image dataset for training.
+    3) Converts the images into arrays, normalizes pixel values to [0, 1], and separates the data into training and testing sets.
+    4) Encodes the labels (toy and non-toy) as one-hot vectors.
+    5) Sets up an image data generator with data augmentation to enhance the CNN's ability to generalize.
+    6) Constructs the CNN model using the LeNet architecture.
+    7) Compiles the model with binary cross-entropy loss and the Adam optimizer.
+    8) Trains the CNN on the training data using data augmentation for the specified number of epochs.
+    9) Saves the trained CNN model to a file for later use.
+'''
+
 #!/usr/bin/env python3
 
 # import the necessary packages
