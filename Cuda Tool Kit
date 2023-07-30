@@ -1,0 +1,13 @@
+# Those who have a supported Nvidia GPU, this is recommended to install
+Link - https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html
+--------------------------------------------------------------------------------
+open terminal in Ubuntu and use the below commands:
+1) wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin
+2) sudo mv cuda-ubuntu2004.pin /etc/apt/preferences.d/cuda-repository-pin-600
+3) wget https://developer.download.nvidia.com/compute/cuda/12.2.0/local_installers/cuda-repo-ubuntu2004-12-2-local_12.2.0-535.54.03-1_amd64.deb
+4) sudo dpkg -i cuda-repo-ubuntu2004-12-2-local_12.2.0-535.54.03-1_amd64.deb
+5) sudo cp /var/cuda-repo-ubuntu2004-12-2-local/cuda-*-keyring.gpg /usr/share/keyrings/
+6) sudo apt-get update
+7) sudo apt-get -y install cuda
+----------------------------------------------------------------------------------
+Only for Ubuntu 20.04 Who has (Nvidia GPU)
