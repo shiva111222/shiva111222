@@ -1,0 +1,42 @@
+To Create catkin_ws follow these commands:
+-------------------------
+Note: For every new project you need to create new packages in catkin_ws!
+
+1) mkdir catkin_ws
+2) cd catkin_ws/
+3) mkdir src/
+4) catkin_make
+# this will create catkin_ws
+
+5) cd devel/
+6) source setup.bash
+7) atom ~/.bashrc
+#it will open the source code, at last line type: source ~/catkin_ws/devel/setup.bash
+#and save the fiel
+--------------------------
+
+Creating ROS Package
+
+1) cd catkin_ws/src/
+2) catkin_create_pkg robot roscpp rospy std_msgs  
+              ## here instead robot, you can use your own words
+
+Now, open new terminal and type
+1) cd catkin_ws/
+2) cd catkin_make
+
+---------------------------
+To Run Python Programs:
+
+1) cd catkin_ws/src/robot/
+2) mkdir scripts
+3) cd scripts/
+4) touch your_pythonfilename.py
+5) chmod +x your_pythonfilename.py
+#you created puthon file
+
+----------------------------
+To access python file:
+     atom your_pythonfilename.py
+To run that python file:
+    python3 your_pythonfilename.py
