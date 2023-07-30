@@ -1,2 +1,38 @@
+Installing Ubuntu 20.04 LTS through the Dual Boot process
 
+#########################################################################
 Minimum Requirements :
+1) 2 GB of Ram (DDR3+)
+2) 40GB (SSD/HDD)
+3) AMD / INTEL CPU (4 Core)
+4) Nvidia GPU (2021v) (Optional)
+#########################################################################
+
+Requirements to Install Ubuntu:
+1) Pendrive Min of 8GB
+2) download Rufus 
+   link - https://github.com/pbatard/rufus/releases/download/v4.2/rufus-4.2.exe
+3) download the Ubuntu .iso file (Version: 20.04 LTS Focal Fossa)
+   link - https://releases.ubuntu.com/20.04.6/
+   (download desktop image)
+4) using Rufus create a bootable pendrive 
+
+########################################################################
+
+Youtube Link :  https://youtu.be/mXyN1aJYefc
+
+########################################################################
+
+Step 1:
+goto -> windows settings -> privacy & security -> Device encryption -> off 
+
+step 2:
+goto -> system information -> secure boot state -> if it is 'on'
+# Then, you need off the secure boot by accessing BIOS (most laptops & desktops use 'F2' Key)
+
+step 3:
+goto -> computer management -> storage -> Disk management -> you need to create 40Gb (75Gb recommended) and keep it as unallocated (black color)
+
+step 4:
+now hold the shift key and restart your system which takes you to firmware setting -> select usb which has the Ubuntu image 
+
