@@ -10,7 +10,7 @@ The script performs the following steps:
     2) Randomly shuffles the image dataset for training.
     3) Converts the images into arrays, normalizes pixel values to [0, 1], and separates the data into training and testing sets.
     4) Encodes the labels (toy and non-toy) as one-hot vectors.
-    5) Sets up an image data generator with data augmentation to enhance the CNN's ability to generalize.
+    5) Sets up an image data generator with data augmentation to enhance the CNN's ability to generalize
     6) Constructs the CNN model using the LeNet architecture.
     7) Compiles the model with binary cross-entropy loss and the Adam optimizer.
     8) Trains the CNN on the training data using data augmentation for the specified number of epochs.
