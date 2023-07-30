@@ -1,0 +1,10 @@
+-------------------------------
+sudo apt update
+sudo apt install python3-pip
+-------------------------------
+pip3 install numpy scipy matplotlib
+-------------------------------
+pip3 install opencv-python scikit-learn keras tensorflow
+-------------------------------
+
+# will be added if any library is used in code!
