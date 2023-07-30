@@ -12,7 +12,7 @@ Note: For every new project you need to create new packages in catkin_ws!
 6) source setup.bash
 7) atom ~/.bashrc
 #it will open the source code, at last line type: source ~/catkin_ws/devel/setup.bash
-#and save the fiel
+#and save the file
 --------------------------
 
 Creating ROS Package
@@ -33,7 +33,7 @@ To Run Python Programs:
 3) cd scripts/
 4) touch your_pythonfilename.py
 5) chmod +x your_pythonfilename.py
-#you created puthon file
+#you created python file
 
 ----------------------------
 To access python file:
