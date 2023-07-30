@@ -1,5 +1,4 @@
 # AI-for-Robotics
-Config files for my GitHub profile.
 
 1) Need to install the Ubuntu 20.04 LTS to run ROS
 2) Install all the libraries to run the programs
