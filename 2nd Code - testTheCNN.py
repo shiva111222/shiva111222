@@ -71,10 +71,6 @@ class LeNet:
 		# return the completed network architecture
 		return model
 
-
-
-
-
 # data files
 imageDirectory = "images/"
 model_file = "toy_not_toy.model"
