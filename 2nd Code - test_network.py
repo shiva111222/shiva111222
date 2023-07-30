@@ -1,3 +1,22 @@
+'''
+Title: Toy Detector using LeNet and Keras
+
+Description:
+This Python script is a toy detector that uses a pre-trained LeNet Convolutional Neural Network (CNN) to classify whether an input image contains a toy or not. The script loads an image (e.g., "toy.jpg"), preprocesses it, and feeds it into the trained CNN model ("toy_not_toy.model"). The model predicts the probabilities of the input image being a toy or not. Based on the prediction, the script builds a label indicating the classification result and displays the result on the image using matplotlib.
+
+Explanation:
+
+    The script reads and copies the input image using OpenCV.
+    The image is resized to (128, 128) and normalized to have values in the range [0, 1].
+    The image is converted into an array and expanded along the first axis for compatibility with the CNN model.
+    The pre-trained CNN model ("toy_not_toy.model") is loaded using Keras.
+    The input image is passed through the model using model.predict, which returns the predicted probabilities of being a toy and not a toy.
+    Based on the probabilities, the script decides the label (Toy or Not Toy) and the probability value.
+    The label and probability are drawn on the original image using OpenCV's putText function.
+    The annotated image is displayed using matplotlib, showing the classification result.
+    The annotated image is also saved as "toy_classified.jpg" using OpenCV.
+'''
+
 #!/usr/bin/env python3
 
 # Test Network Program
