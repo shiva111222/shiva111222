@@ -1,0 +1,32 @@
+After installing Ubuntu 20.04 LTS
+Ubuntu install of ROS Noetic Link -  http://wiki.ros.org/noetic/Installation/Ubuntu
+---------------------------------------------------------------------------
+open the terminal and run the following commands:
+# Make sure that system is connected to internet (i.e wifi)
+1) sudo apt update
+2) sudo apt upgrade
+3) sudo apt install build-essential gcc make perl dkms
+--------- restart ----------
+install any text editor to edit Code:
+1) for 'ATOM' use command: sudo snap install atom --classic
+2) for 'VS Code' use command: sudo snap install --classic code
+--------- restart ----------
+Installing ROS Noetic (run all the commands step by step)
+1) sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+2) sudo apt install curl
+3) curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
+4) sudo apt update
+5) sudo apt install ros-noetic-desktop-full
+6) source /opt/ros/noetic/setup.bash
+7) echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
+8) source ~/.bashrc  
+  ### here if you use atom, repace atom with source (same as vscode) 
+9) sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
+10) sudo apt install python3-rosdep
+11) sudo rosdep init
+12) rosdep update
+-------- restart ------------
+Now, you successfully installed ROS
+to test that:
+open terminal and type: roscore
+if it run's you installed ROS Noetic, To exit press- ctrl+c
