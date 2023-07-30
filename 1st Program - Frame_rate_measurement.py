@@ -66,3 +66,4 @@ print("AVERAGE SLEEP TIME:", mean(dataStore), "AVERAGE RUNTIME:", (FRAME * 1000)
 plt.plot(dataStore)
 plt.show()
 
+
