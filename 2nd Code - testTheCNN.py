@@ -6,7 +6,7 @@ This Python script uses a Convolutional Neural Network (CNN) to classify images 
 
 The script performs the following steps:
 
-    1) Loads the toy and non-toy images from the specified directory.
+    1) Loads the toy and non-toy images from the specified directory
     2) Randomly shuffles the image dataset for training.
     3) Converts the images into arrays, normalizes pixel values to [0, 1], and separates the data into training and testing sets.
     4) Encodes the labels (toy and non-toy) as one-hot vectors.
