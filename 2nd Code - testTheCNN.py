@@ -15,12 +15,13 @@ The script performs the following steps:
     7) Compiles the model with binary cross-entropy loss and the Adam optimizer.
     8) Trains the CNN on the training data using data augmentation for the specified number of epochs.
     9) Saves the trained CNN model to a file for later use.
-'''
 
 #######################################
 Run the below command if your system does not have Nvidia GPU, then execute the code!
 export CUDA_VISIBLE_DEVICES=-1
 #######################################
+
+'''
 
 #!/usr/bin/env python3
 # import the necessary packages
