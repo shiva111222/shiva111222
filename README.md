@@ -6,7 +6,7 @@
 3) If you have a Nvidia GPU it is better to install Cuda Toolkit
    if you are not having GPU, still we can run on any CPU (AMD or INTEL)
 
-################################################
+--------------------------
 
 Process:
 1) Create Dual Boot
