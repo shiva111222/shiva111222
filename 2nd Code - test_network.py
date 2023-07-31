@@ -15,11 +15,13 @@ Explanation:
     The label and probability are drawn on the original image using OpenCV's putText function.
     The annotated image is displayed using matplotlib, showing the classification result.
     The annotated image is also saved as "toy_classified.jpg" using OpenCV.
-'''
+
 #######################################
 Run the below command if your system does not have Nvidia GPU, then execute the code!
 export CUDA_VISIBLE_DEVICES=-1
 #######################################
+'''
+
 
 #!/usr/bin/env python3
 
