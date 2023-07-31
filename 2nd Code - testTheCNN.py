@@ -17,13 +17,12 @@ The script performs the following steps:
     9) Saves the trained CNN model to a file for later use.
 '''
 
-#!/usr/bin/env python3
-
 #######################################
-Run the below command if your system does not have Nvidia GPU
+Run the below command if your system does not have Nvidia GPU, then execute the code!
 export CUDA_VISIBLE_DEVICES=-1
 #######################################
 
+#!/usr/bin/env python3
 # import the necessary packages
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.optimizers import Adam, SGD, Adadelta, Adagrad
