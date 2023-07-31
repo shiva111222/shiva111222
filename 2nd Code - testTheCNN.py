@@ -19,6 +19,11 @@ The script performs the following steps:
 
 #!/usr/bin/env python3
 
+#######################################
+Run the below command if your system does not have Nvidia GPU
+export CUDA_VISIBLE_DEVICES=-1
+#######################################
+
 # import the necessary packages
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.optimizers import Adam, SGD, Adadelta, Adagrad
