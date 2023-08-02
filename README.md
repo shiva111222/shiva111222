@@ -13,5 +13,9 @@ Process:
 2) Install ROS
 3) Install required libraries
 4) Create catkin_ws
+5) Install LabelImg using PyQt5
 
+According to above title mentioned, open the files and get installed :)
+
+---------------------------
 Codes which we use to build CNN and the process of building robots will be available here!
